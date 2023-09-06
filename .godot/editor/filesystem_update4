@@ -1,5 +1,2 @@
-res://atores/Enemy_3/enemy_3.tscn
-res://Cenas/level.tscn
-res://atores/Enemy_2/enemy_2.gd
-res://atores/Enemy_3/enemy_3.gd
 res://Cenas/level_2.tscn
+res://Cenas/level.tscn

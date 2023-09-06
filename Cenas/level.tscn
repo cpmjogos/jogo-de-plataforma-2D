@@ -1,10 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://s88w4l44mqxm"]
+[gd_scene load_steps=9 format=3 uid="uid://s88w4l44mqxm"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_6ecg6"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_ttj75"]
 [ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_m544g"]
 [ext_resource type="PackedScene" uid="uid://cigpmin47n1lu" path="res://atores/Enemy_2/enemy_2.tscn" id="4_x1ay0"]
-[ext_resource type="PackedScene" uid="uid://dpoj6k4vgyx5j" path="res://atores/Enemy_3/enemy_3.tscn" id="5_p5jgj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
@@ -294,6 +293,3 @@ position = Vector2(38, 251)
 
 [node name="enemy_2" parent="." instance=ExtResource("4_x1ay0")]
 position = Vector2(92, 281)
-
-[node name="enemy_3" parent="." instance=ExtResource("5_p5jgj")]
-position = Vector2(152, 275)

@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://cht0dyhwjy8hp"]
+[gd_scene load_steps=9 format=3 uid="uid://cht0dyhwjy8hp"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_81oxk"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_k425r"]
 [ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_5iliu"]
+[ext_resource type="PackedScene" uid="uid://cigpmin47n1lu" path="res://atores/Enemy_2/enemy_2.tscn" id="4_63wwy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
@@ -289,3 +290,6 @@ layer_1/tile_data = PackedInt32Array(983065, 327681, 1, 983049, 65537, 1, 983053
 
 [node name="Player" parent="." instance=ExtResource("3_5iliu")]
 position = Vector2(38, 251)
+
+[node name="enemy_2" parent="." instance=ExtResource("4_63wwy")]
+position = Vector2(99, 282)
