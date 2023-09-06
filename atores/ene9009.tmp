@@ -1,0 +1,79 @@
+[gd_scene load_steps=12 format=3 uid="uid://cigpmin47n1lu"]
+
+[ext_resource type="Script" path="res://atores/enemy_2.gd" id="1_aoghs"]
+[ext_resource type="Texture2D" uid="uid://2d60a8tqxm3p" path="res://Pacotes/Sprite Pack 2/1 - Onion Lad/Idle (16 x 16).png" id="2_h45fa"]
+[ext_resource type="Texture2D" uid="uid://c21abvnb1cp6u" path="res://Pacotes/Sprite Pack 2/1 - Onion Lad/Hurt (16 x 16).png" id="3_4bvox"]
+[ext_resource type="Texture2D" uid="uid://bg7vgd8oogcjc" path="res://Pacotes/Sprite Pack 2/1 - Onion Lad/Standing_&_Jump_Punching (16 x 16).png" id="4_cmlt6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ti5j"]
+size = Vector2(14, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qikgo"]
+atlas = ExtResource("2_h45fa")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0sowr"]
+atlas = ExtResource("2_h45fa")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avqnx"]
+atlas = ExtResource("3_4bvox")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8r7u"]
+atlas = ExtResource("4_cmlt6")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_er2kc"]
+atlas = ExtResource("4_cmlt6")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_70f8v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qikgo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0sowr")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avqnx")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8r7u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_er2kc")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="enemy_2" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_aoghs")
+
+[node name="colisor" type="CollisionShape2D" parent="."]
+position = Vector2(0, -7.5)
+shape = SubResource("RectangleShape2D_4ti5j")
+
+[node name="anime" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -9)
+sprite_frames = SubResource("SpriteFrames_70f8v")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.630409
+
+[node name="animator" type="AnimationPlayer" parent="."]
