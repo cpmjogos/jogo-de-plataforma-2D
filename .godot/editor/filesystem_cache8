@@ -1,15 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1694031835
+::res://::1694032521
 icon.svg::CompressedTexture2D::8175431377744174530::1693964930::1693964930::1::::<><>::
 Player.gd::GDScript::-1::1693964930::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1693964930::0::1::::<><>::
-::res://atores/::1694031752
-enemy_2.gd::GDScript::-1::1694031752::0::1::::<>KinematicBody2D<>::
-enemy_2.tscn::PackedScene::5347671009063365562::1694031752::0::1::::<><>::uid://2d60a8tqxm3p
+::res://atores/::1694032521
 player.tscn::PackedScene::6169973973354293690::1693964930::0::1::::<><>::res://Player.gd<>uid://c1ep8aq1wy3fm
-::res://Cenas/::1694031752
+::res://atores/Enemy_2/::1694032521
+enemy_2.gd::GDScript::-1::1694031752::0::1::::<>KinematicBody2D<>::
+enemy_2.tscn::PackedScene::5347671009063365562::1694031752::0::1::::<><>::uid://2d60a8tqxm3p::::res://Pacotes/Sprite Pack 2/1 - Onion Lad/Idle (16 x 16).png<>uid://c21abvnb1cp6u::::res://Pacotes/Sprite Pack 2/1 - Onion Lad/Hurt (16 x 16).png<>uid://bg7vgd8oogcjc::::res://Pacotes/Sprite Pack 2/1 - Onion Lad/Standing_&_Jump_Punching (16 x 16).png
+enemy_3.gd::GDScript::-1::1694032473::0::1::::<>CharacterBody2D<>::
+::res://atores/Enemy_3/::1694032517
+enemy_3.tscn::PackedScene::8241598377748538081::1694032526::0::1::::<><>::res://atores/Enemy_2/enemy_3.gd<>uid://gld0b37d1eb1::::res://Pacotes/Sprite Pack 2/4 - Robo Pumpkin/Standing (16 x 16).png<>uid://d4krunvchaye4::::res://Pacotes/Sprite Pack 2/4 - Robo Pumpkin/Walking (16 x 16).png
+::res://Cenas/::1694032521
 level.tscn::PackedScene::1333568141122631274::1694031751::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn
-level_2.tscn::PackedScene::5304911004767063249::1694031752::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://cigpmin47n1lu::::res://atores/enemy_2.tscn
+level_2.tscn::PackedScene::5304911004767063249::1694032521::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://cigpmin47n1lu::::res://atores/Enemy_2/enemy_2.tscn
 ::res://Pacotes/::1693964930
 ::res://Pacotes/Seasonal Tilesets/::1693964930
 LICENSE.txt::TextFile::-1::1693964930::0::1::::<><>::

@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=3 uid="uid://dpoj6k4vgyx5j"]
+
+[ext_resource type="Script" path="res://atores/Enemy_3/enemy_3.gd" id="1_mb7ua"]
+[ext_resource type="Texture2D" uid="uid://gld0b37d1eb1" path="res://Pacotes/Sprite Pack 2/4 - Robo Pumpkin/Standing (16 x 16).png" id="2_n65xv"]
+[ext_resource type="Texture2D" uid="uid://d4krunvchaye4" path="res://Pacotes/Sprite Pack 2/4 - Robo Pumpkin/Walking (16 x 16).png" id="3_u23jq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ti5j"]
+size = Vector2(14, 13)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxyq0"]
+atlas = ExtResource("2_n65xv")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8mmf"]
+atlas = ExtResource("3_u23jq")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmahh"]
+atlas = ExtResource("3_u23jq")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_70f8v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wxyq0")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8mmf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmahh")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="enemy_2" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_mb7ua")
+
+[node name="colisor" type="CollisionShape2D" parent="."]
+position = Vector2(0, -7.5)
+shape = SubResource("RectangleShape2D_4ti5j")
+
+[node name="anime" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -9)
+sprite_frames = SubResource("SpriteFrames_70f8v")
+animation = &"run"
+autoplay = "idle"
+
+[node name="animator" type="AnimationPlayer" parent="."]
