@@ -1,1 +1,4 @@
-res://Cenas/level.tscn
+res://Cenas/level_2.tscn
+res://atores/enemy_2.tscn
+res://atores/enemy_2.gd
+res://atores/player.tscn
