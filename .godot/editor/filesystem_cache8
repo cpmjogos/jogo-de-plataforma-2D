@@ -1,13 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695742715
+::res://::1695743247
 icon.svg::CompressedTexture2D::8175431377744174530::1695742696::1695742696::1::::<><>::
 Player.gd::GDScript::-1::1695742696::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1695742696::0::1::::<><>::
 ::res://atores/::1695742696
-player.tscn::PackedScene::6169973973354293690::1695742696::0::1::::<><>::res://Player.gd<>uid://c1ep8aq1wy3fm::::res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png<>uid://payxetse37ki::::res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png<>uid://ch6c62dkmeq0f::::res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png
-::res://Cenas/::1695742705
-eduarda.tscn::PackedScene::4349936577147766415::1695742705::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://bk3apoqjx7mcf::::res://Pacotes/Seasonal Tilesets/3 - Tropics/Terrain (16 x 16).png<>uid://js6sbluelak7::::res://Pacotes/Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png
-level.tscn::PackedScene::1333568141122631274::1695742705::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn
+player.tscn::PackedScene::6169973973354293690::1695742696::0::1::::<><>::res://Player.gd<>uid://c1ep8aq1wy3fm
+::res://Cenas/::1695743223
+eduarda.tscn::PackedScene::4349936577147766415::1695743181::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://bk3apoqjx7mcf::::res://Pacotes/Seasonal Tilesets/3 - Tropics/Terrain (16 x 16).png<>uid://js6sbluelak7::::res://Pacotes/Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png
+Leonardo2D.tscn::PackedScene::1333568141122631274::1695743213::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://bk3apoqjx7mcf::::res://Pacotes/Seasonal Tilesets/3 - Tropics/Terrain (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://4rp5p0uqj70g::::res://Pacotes/Seasonal Tilesets/4 - Winter World/Winter_entities (16 x 16).png<>uid://js6sbluelak7::::res://Pacotes/Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png
+level.tscn::PackedScene::437100222068616784::1695743213::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn
 ::res://Pacotes/::1695742696
 ::res://Pacotes/Seasonal Tilesets/::1695742696
 LICENSE.txt::TextFile::-1::1695742696::0::1::::<><>::
