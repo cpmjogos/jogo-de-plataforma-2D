@@ -1,11 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://ghy8hgadlyv5"]
+[gd_scene load_steps=7 format=3 uid="uid://ghy8hgadlyv5"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_6ecg6"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_ttj75"]
 [ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_m544g"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
-size = Vector2(294, 11.75)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jr54k"]
 texture = ExtResource("1_6ecg6")
@@ -267,13 +264,7 @@ sources/1 = SubResource("TileSetAtlasSource_vba2n")
 
 [node name="World-01" type="Node2D"]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(322, 291.875)
-shape = SubResource("RectangleShape2D_7wwae")
-
-[node name="level" type="TileMap" parent="."]
+[node name="Tilemap" type="TileMap" parent="."]
 position = Vector2(30, 8)
 tile_set = SubResource("TileSet_txhe7")
 format = 2
