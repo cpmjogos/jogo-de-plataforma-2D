@@ -477,12 +477,15 @@ sources/3 = SubResource("TileSetAtlasSource_nqi16")
 [node name="World-01" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(614, 110)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(-27, 183)
 shape = SubResource("RectangleShape2D_7wwae")
 
 [node name="level" type="TileMap" parent="."]
+light_mask = 0
+visibility_layer = 2
 position = Vector2(30, 8)
 tile_set = SubResource("TileSet_txhe7")
 format = 2
