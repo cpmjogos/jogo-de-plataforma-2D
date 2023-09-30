@@ -1,21 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695852053
+::res://::1696087433
 icon.svg::CompressedTexture2D::8175431377744174530::1695742696::1695742696::1::::<><>::
 Player.gd::GDScript::-1::1695742696::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1695742696::0::1::::<><>::
 ::res://atores/::1695847472
 player.tscn::PackedScene::6169973973354293690::1695742696::0::1::::<><>::res://Player.gd<>uid://c1ep8aq1wy3fm
-::res://Cenas/::1695849759
-clau.tscn::PackedScene::5963967032808379278::1695848455::0::1::::<><>::uid://27nilnvvflq4
-eduarda.tscn::PackedScene::4349936577147766415::1695847747::0::1::::<><>::uid://27nilnvvflq4
-gegeo.tscn::PackedScene::5648471663912299495::1695847747::0::1::::<><>::uid://27nilnvvflq4
-isaac.tscn::PackedScene::8697161267576543876::1695847747::0::1::::<><>::uid://27nilnvvflq4
-Leonardo2D.tscn::PackedScene::1333568141122631274::1695847747::0::1::::<><>::uid://27nilnvvflq4
-level.tscn::PackedScene::437100222068616784::1695848455::0::1::::<><>::uid://27nilnvvflq4
-Leônidas.tscn::PackedScene::1333568141122631274::1695847747::0::1::::<><>::uid://27nilnvvflq4
-LOL.tscn::PackedScene::228228908302622824::1695847747::0::1::::<><>::uid://27nilnvvflq4
-maelyamandagaby2d.tscn::PackedScene::2654743948759956918::1695847747::0::1::::<><>::uid://27nilnvvflq4
-mari2D.tscn::PackedScene::4632618386524137446::1695849759::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://yyvotujxc3md::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png<>uid://cxekaq512jg8d::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Extra_plants (16 x 16).png
+::res://Cenas/::1696087414
+level.tscn::PackedScene::437100222068616784::1696087414::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn
 ::res://Pacotes/::1695742696
 ::res://Pacotes/Seasonal Tilesets/::1695742696
 LICENSE.txt::TextFile::-1::1695742696::0::1::::<><>::
