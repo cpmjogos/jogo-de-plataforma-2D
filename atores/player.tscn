@@ -50,7 +50,7 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
+"duration": 1.7,
 "texture": SubResource("AtlasTexture_h83hu")
 }],
 "loop": true,
@@ -58,10 +58,10 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
+"duration": 1.4,
 "texture": SubResource("AtlasTexture_kmtlj")
 }, {
-"duration": 1.0,
+"duration": 1.4,
 "texture": SubResource("AtlasTexture_m7b7v")
 }, {
 "duration": 1.0,
@@ -88,7 +88,7 @@ limit_left = -50
 limit_smoothed = true
 position_smoothing_speed = 10.0
 drag_horizontal_enabled = true
-drag_left_margin = 0.5
+drag_left_margin = 0.43
 drag_right_margin = 0.5
 editor_draw_limits = true
 editor_draw_drag_margin = true
