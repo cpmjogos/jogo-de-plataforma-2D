@@ -260,7 +260,8 @@ texture = ExtResource("2_mg626")
 5:1/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSet" id="TileSet_txhe7"]
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 2
+physics_layer_0/collision_mask = 0
 sources/0 = SubResource("TileSetAtlasSource_jr54k")
 sources/1 = SubResource("TileSetAtlasSource_vba2n")
 
@@ -288,4 +289,4 @@ layer_1/tile_data = PackedInt32Array(983065, 327681, 1, 983049, 65537, 1, 983053
 
 [node name="Player" parent="." instance=ExtResource("3_0nmgn")]
 position = Vector2(-26, 88)
-collision_mask = 1
+collision_layer = 0
