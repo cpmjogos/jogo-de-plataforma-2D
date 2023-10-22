@@ -1,5 +1,2 @@
-res://atores/player.tscn
-res://Player.gd
 res://Cenas/level.tscn
-res://Shaders/movimenta_nuvem.gdshader
 res://Shaders/move_nuvem.gdshader

@@ -305,9 +305,10 @@ position = Vector2(-26, 88)
 
 [node name="05" type="ParallaxLayer" parent="BG-ParallaxBackground"]
 position = Vector2(-1, 30)
-motion_mirroring = Vector2(432, 0)
+motion_mirroring = Vector2(432, 312)
 
 [node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/05"]
+position = Vector2(-0.999999, -326)
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("4_vmlgs")
 centered = false
