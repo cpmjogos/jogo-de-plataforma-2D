@@ -1,1 +1,4 @@
 res://Cenas/level.tscn
+res://Player.gd
+res://atores/player.tscn
+res://movimenta_nuvem/level.gdshader
