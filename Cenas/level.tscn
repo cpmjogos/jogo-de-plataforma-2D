@@ -298,36 +298,41 @@ position = Vector2(-26, 88)
 [node name="BG-ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="05" type="ParallaxLayer" parent="BG-ParallaxBackground"]
-position = Vector2(1, 106)
+position = Vector2(0, -6)
 
 [node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/05"]
+scale = Vector2(1.5, 1.5)
 texture = ExtResource("4_k0ck0")
 centered = false
 
 [node name="04" type="ParallaxLayer" parent="BG-ParallaxBackground"]
-position = Vector2(1, 105)
+position = Vector2(0, -7)
 
 [node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/04"]
+scale = Vector2(1.5, 1.5)
 texture = ExtResource("5_71ddt")
 centered = false
 
 [node name="03" type="ParallaxLayer" parent="BG-ParallaxBackground"]
-position = Vector2(1, 105)
+position = Vector2(0, -7)
 
 [node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/03"]
+scale = Vector2(1.5, 1.5)
 texture = ExtResource("6_pyt1c")
 centered = false
 
 [node name="02" type="ParallaxLayer" parent="BG-ParallaxBackground"]
-position = Vector2(1, 105)
+position = Vector2(0, -7)
 
 [node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/02"]
+scale = Vector2(1.5, 1.5)
 texture = ExtResource("7_ee0pw")
 centered = false
 
 [node name="01" type="ParallaxLayer" parent="BG-ParallaxBackground"]
-position = Vector2(1, 105)
+position = Vector2(0, -7)
 
 [node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/01"]
+scale = Vector2(1.5, 1.5)
 texture = ExtResource("8_13b2l")
 centered = false
