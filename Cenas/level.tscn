@@ -295,3 +295,13 @@ position = Vector2(-26, 88)
 [node name="BG-ParallaxBackground" type="ParallaxLayer" parent="ParallaxBackground"]
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/BG-ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxLayer"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxLayer/ParallaxLayer"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxLayer/ParallaxLayer/ParallaxLayer"]
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxLayer"]
