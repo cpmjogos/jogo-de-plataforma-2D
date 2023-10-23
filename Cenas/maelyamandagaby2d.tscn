@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_28pby"]
 [ext_resource type="Texture2D" uid="uid://yyvotujxc3md" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png" id="3_hgat4"]
 [ext_resource type="Texture2D" uid="uid://c3a0cheubljyy" path="res://Pacotes/Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png" id="4_k64ph"]
-[ext_resource type="Texture2D" uid="uid://cxekaq512jg8d" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Extra_plants (16 x 16).png" id="5_1i36b"]
+[ext_resource type="Texture2D" uid="uid://cxekaq512jg8d" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/Extra_plants (16 x 16).png" id="5_ynhhb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
@@ -710,7 +710,7 @@ texture = ExtResource("4_k64ph")
 14:5/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyoq7"]
-texture = ExtResource("5_1i36b")
+texture = ExtResource("5_ynhhb")
 1:1/0 = 0
 1:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:1/0/physics_layer_0/angular_velocity = 0.0

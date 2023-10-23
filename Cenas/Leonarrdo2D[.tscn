@@ -1,14 +1,14 @@
 [gd_scene load_steps=8 format=3 uid="uid://ghy8hgadlyv5"]
 
-[ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_6ecg6"]
-[ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_ttj75"]
-[ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_m544g"]
+[ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_ubuw5"]
+[ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_cexe4"]
+[ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_0csbn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jr54k"]
-texture = ExtResource("1_6ecg6")
+texture = ExtResource("1_ubuw5")
 4:1/0 = 0
 4:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:1/0/physics_layer_0/angular_velocity = 0.0
@@ -162,7 +162,7 @@ texture = ExtResource("1_6ecg6")
 3:1/0/physics_layer_0/polygon_0/one_way = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vba2n"]
-texture = ExtResource("2_ttj75")
+texture = ExtResource("2_cexe4")
 9:1/0 = 0
 9:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 9:1/0/physics_layer_0/angular_velocity = 0.0
@@ -287,5 +287,5 @@ layer_1/y_sort_origin = 0
 layer_1/z_index = 0
 layer_1/tile_data = PackedInt32Array(983065, 327681, 1, 983049, 65537, 1, 983053, 65537, 1, 851982, 589825, 1, 917518, 589825, 2, 983054, 589825, 3, 851983, 655361, 1, 917519, 655361, 2, 983055, 655361, 3, 851984, 720897, 1, 917520, 720897, 2, 983056, 720897, 3, 917534, 589825, 1, 983070, 589825, 2, 1048606, 589825, 3, 917535, 655361, 1, 983071, 655361, 2, 1048607, 655361, 3, 917536, 720897, 1, 983072, 720897, 2, 1048608, 720897, 3, 917540, 589825, 1, 983076, 589825, 2, 1048612, 589825, 3, 917541, 655361, 1, 983077, 655361, 2, 1048613, 655361, 3, 917542, 720897, 1, 983078, 720897, 2, 1048614, 720897, 3, 917547, 589825, 1, 983083, 589825, 2, 1048619, 589825, 3, 917548, 655361, 1, 983084, 655361, 2, 1048620, 655361, 3, 917549, 720897, 1, 983085, 720897, 2, 1048621, 720897, 3)
 
-[node name="Player" parent="." instance=ExtResource("3_m544g")]
+[node name="Player" parent="." instance=ExtResource("3_0csbn")]
 position = Vector2(-26, 88)
