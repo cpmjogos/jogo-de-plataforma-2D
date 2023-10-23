@@ -1,6 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://dis5qw33e8d5"]
+[gd_scene load_steps=8 format=3 uid="uid://ckd4c8fbiv8l"]
 
-[ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_xj284"]
+[ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/Terrain (16 x 16).png" id="1_qqkfy"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_u85fb"]
 [ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_qguwf"]
 
@@ -8,7 +8,7 @@
 size = Vector2(294, 11.75)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jr54k"]
-texture = ExtResource("1_xj284")
+texture = ExtResource("1_qqkfy")
 4:1/0 = 0
 4:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:1/0/physics_layer_0/angular_velocity = 0.0
