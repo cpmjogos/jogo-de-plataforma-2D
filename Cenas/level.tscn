@@ -289,3 +289,9 @@ layer_1/tile_data = PackedInt32Array(983065, 327681, 1, 983049, 65537, 1, 983053
 
 [node name="Player" parent="." instance=ExtResource("3_m544g")]
 position = Vector2(-26, 88)
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="BG-ParallaxBackground" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/BG-ParallaxBackground"]
