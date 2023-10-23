@@ -1,8 +1,13 @@
-[gd_scene load_steps=8 format=3 uid="uid://ghy8hgadlyv5"]
+[gd_scene load_steps=13 format=3 uid="uid://ghy8hgadlyv5"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_6ecg6"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_ttj75"]
 [ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_m544g"]
+[ext_resource type="Texture2D" uid="uid://bi2g6pu7toaxd" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png" id="4_k0ck0"]
+[ext_resource type="Texture2D" uid="uid://4r8rnynuhqyh" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png" id="5_71ddt"]
+[ext_resource type="Texture2D" uid="uid://m4i85rs3xwpo" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png" id="6_pyt1c"]
+[ext_resource type="Texture2D" uid="uid://b8fh3au5dhlay" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png" id="7_ee0pw"]
+[ext_resource type="Texture2D" uid="uid://ddtkqak5e0te8" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png" id="8_13b2l"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
@@ -289,3 +294,40 @@ layer_1/tile_data = PackedInt32Array(983065, 327681, 1, 983049, 65537, 1, 983053
 
 [node name="Player" parent="." instance=ExtResource("3_m544g")]
 position = Vector2(-26, 88)
+
+[node name="BG-ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="05" type="ParallaxLayer" parent="BG-ParallaxBackground"]
+position = Vector2(1, 106)
+
+[node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/05"]
+texture = ExtResource("4_k0ck0")
+centered = false
+
+[node name="04" type="ParallaxLayer" parent="BG-ParallaxBackground"]
+position = Vector2(1, 105)
+
+[node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/04"]
+texture = ExtResource("5_71ddt")
+centered = false
+
+[node name="03" type="ParallaxLayer" parent="BG-ParallaxBackground"]
+position = Vector2(1, 105)
+
+[node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/03"]
+texture = ExtResource("6_pyt1c")
+centered = false
+
+[node name="02" type="ParallaxLayer" parent="BG-ParallaxBackground"]
+position = Vector2(1, 105)
+
+[node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/02"]
+texture = ExtResource("7_ee0pw")
+centered = false
+
+[node name="01" type="ParallaxLayer" parent="BG-ParallaxBackground"]
+position = Vector2(1, 105)
+
+[node name="texture" type="Sprite2D" parent="BG-ParallaxBackground/01"]
+texture = ExtResource("8_13b2l")
+centered = false
