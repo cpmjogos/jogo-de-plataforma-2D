@@ -1,8 +1,14 @@
-[gd_scene load_steps=8 format=3 uid="uid://ghy8hgadlyv5"]
+[gd_scene load_steps=15 format=3 uid="uid://ghy8hgadlyv5"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_6ecg6"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_ttj75"]
 [ext_resource type="PackedScene" uid="uid://ct51tm2howq7k" path="res://atores/player.tscn" id="3_m544g"]
+[ext_resource type="Texture2D" uid="uid://bi2g6pu7toaxd" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png" id="4_obaeg"]
+[ext_resource type="Texture2D" uid="uid://4r8rnynuhqyh" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png" id="5_5sxal"]
+[ext_resource type="Texture2D" uid="uid://m4i85rs3xwpo" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png" id="6_33g4t"]
+[ext_resource type="Shader" path="res://Cenas/movimentanuvem.gdshader" id="6_def54"]
+[ext_resource type="Texture2D" uid="uid://b8fh3au5dhlay" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png" id="7_c1hkg"]
+[ext_resource type="Texture2D" uid="uid://ddtkqak5e0te8" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png" id="8_itu7j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(93, 73)
@@ -265,6 +271,10 @@ physics_layer_0/collision_mask = 0
 sources/0 = SubResource("TileSetAtlasSource_jr54k")
 sources/1 = SubResource("TileSetAtlasSource_vba2n")
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5igjd"]
+shader = ExtResource("6_def54")
+shader_parameter/move_speed = 0.05
+
 [node name="World-01" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
@@ -298,3 +308,55 @@ position = Vector2(-26, 88)
 
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(137.071, 304.2)
+
+[node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
+
+[node name="05" type="ParallaxLayer" parent="ParallaxBackground2"]
+position = Vector2(-9, 144)
+motion_mirroring = Vector2(432, 312)
+
+[node name="textura" type="Sprite2D" parent="ParallaxBackground2/05"]
+position = Vector2(225, 25)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("4_obaeg")
+
+[node name="04" type="ParallaxLayer" parent="ParallaxBackground2"]
+position = Vector2(-9, 144)
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(432, 0)
+
+[node name="textura" type="Sprite2D" parent="ParallaxBackground2/04"]
+position = Vector2(225, 22)
+scale = Vector2(1.5, 1.168)
+texture = ExtResource("5_5sxal")
+
+[node name="03" type="ParallaxLayer" parent="ParallaxBackground2"]
+position = Vector2(-9, 144)
+motion_scale = Vector2(0.4, 0.4)
+motion_mirroring = Vector2(432, 0)
+
+[node name="textura" type="Sprite2D" parent="ParallaxBackground2/03"]
+material = SubResource("ShaderMaterial_5igjd")
+position = Vector2(225, 22)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("6_33g4t")
+
+[node name="02" type="ParallaxLayer" parent="ParallaxBackground2"]
+position = Vector2(-9, 144)
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(432, 0)
+
+[node name="textura" type="Sprite2D" parent="ParallaxBackground2/02"]
+position = Vector2(225, 22)
+scale = Vector2(1.5, 1.02)
+texture = ExtResource("7_c1hkg")
+
+[node name="01" type="ParallaxLayer" parent="ParallaxBackground2"]
+position = Vector2(-9, 144)
+motion_scale = Vector2(0.8, 0.8)
+motion_mirroring = Vector2(432, 0)
+
+[node name="textura" type="Sprite2D" parent="ParallaxBackground2/01"]
+position = Vector2(225, 22)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("8_itu7j")
