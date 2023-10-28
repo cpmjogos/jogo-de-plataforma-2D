@@ -96,7 +96,7 @@ editor_draw_drag_margin = true
 [node name="anime" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -16)
 sprite_frames = SubResource("SpriteFrames_70f8v")
-animation = &"jump"
+animation = &"idle"
 autoplay = "idle"
 
 [node name="animator" type="AnimationPlayer" parent="."]
