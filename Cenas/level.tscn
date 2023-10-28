@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://ghy8hgadlyv5"]
+[gd_scene load_steps=16 format=3 uid="uid://ghy8hgadlyv5"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_6ecg6"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_ttj75"]
@@ -9,6 +9,7 @@
 [ext_resource type="Shader" path="res://Shaders/move_nuvem.gdshader" id="6_r1g8e"]
 [ext_resource type="Texture2D" uid="uid://b8fh3au5dhlay" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png" id="7_wb4j8"]
 [ext_resource type="Texture2D" uid="uid://ddtkqak5e0te8" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png" id="8_n62lq"]
+[ext_resource type="PackedScene" uid="uid://b6d5wy8v10pxs" path="res://Prefabs/mover_plataforma.tscn" id="10_7wb84"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
@@ -355,3 +356,10 @@ motion_mirroring = Vector2(432, 0)
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("8_n62lq")
 centered = false
+
+[node name="mover_plataforma" parent="." instance=ExtResource("10_7wb84")]
+position = Vector2(37, 243)
+move_horizontal = false
+
+[node name="mover_plataforma2" parent="." instance=ExtResource("10_7wb84")]
+position = Vector2(222, 231)
