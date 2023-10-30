@@ -1,5 +1,2 @@
 res://Cenas/level.tscn
 res://Shaders/move_nuvem.gdshader
-res://Plataformas/mover_plataforma.tscn
-res://Prefabs/mover_plataforma.tscn
-res://Scripts/mover_plataforma.gd

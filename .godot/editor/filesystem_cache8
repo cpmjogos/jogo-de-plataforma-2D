@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698505321
+::res://::1698662037
 icon.svg::CompressedTexture2D::8175431377744174530::1697969147::1697969147::1::::<><>::
 Player.gd::GDScript::-1::1698504076::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1697969147::0::1::::<><>::
 ::res://atores/::1698504076
-player.tscn::PackedScene::6169973973354293690::1698504076::0::1::::<><>::res://Player.gd<>uid://c1ep8aq1wy3fm::::res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Idle (32 x 32).png<>uid://payxetse37ki::::res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Jumping (32 x 32).png<>uid://ch6c62dkmeq0f::::res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Running (32 x 32).png
-::res://Cenas/::1698505298
-level.tscn::PackedScene::437100222068616784::1698505298::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://bi2g6pu7toaxd::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://4r8rnynuhqyh::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>uid://m4i85rs3xwpo::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>res://Shaders/move_nuvem.gdshader<>uid://b8fh3au5dhlay::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://ddtkqak5e0te8::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png
+player.tscn::PackedScene::6169973973354293690::1698504076::0::1::::<><>::res://Player.gd<>uid://c1ep8aq1wy3fm
+::res://Cenas/::1698516586
+level.tscn::PackedScene::437100222068616784::1698516586::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://bi2g6pu7toaxd::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://4r8rnynuhqyh::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>uid://m4i85rs3xwpo::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>res://Shaders/move_nuvem.gdshader<>uid://b8fh3au5dhlay::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://ddtkqak5e0te8::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png<>uid://b6d5wy8v10pxs::::res://Prefabs/mover_plataforma.tscn
 ::res://Pacotes/::1697969147
 ::res://Pacotes/Seasonal Tilesets/::1697969147
 LICENSE.txt::TextFile::-1::1697969147::0::1::::<><>::
@@ -157,7 +157,9 @@ Claw_Animations (16 x 16).png::CompressedTexture2D::5072346603201397156::1697969
 Hurt (32 x 32).png::CompressedTexture2D::5808675006059398965::1697969147::1697969147::1::::<><>::
 Movement_(Flip_image_back_and_forth) (32 x 32).png::CompressedTexture2D::4653428670458200611::1697969147::1697969147::1::::<><>::
 Reaching_to_Pinch (32 x 32).png::CompressedTexture2D::937613033635977084::1697969147::1697969147::1::::<><>::
-::res://Plataformas/::1698505329
-mover_plataforma.tscn::PackedScene::4570330079512024484::1698512780::0::1::::<><>::uid://dubgyfci0biyq::::res://Pacotes/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png
-::res://Shaders/::1698505329
-move_nuvem.gdshader::Shader::-1::1698512780::0::1::::<><>::
+::res://Prefabs/::1698516174
+mover_plataforma.tscn::PackedScene::4570330079512024484::1698516174::0::1::::<><>::res://Scripts/mover_plataforma.gd<>uid://dubgyfci0biyq::::res://Pacotes/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png
+::res://Scripts/::1698515084
+mover_plataforma.gd::GDScript::-1::1698515084::0::1::::<>Node2D<>::
+::res://Shaders/::1698516657
+move_nuvem.gdshader::Shader::-1::1698516657::0::1::::<><>::
