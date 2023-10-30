@@ -1095,4 +1095,26 @@ metadata/_edit_group_ = true
 position = Vector2(29.5, 0)
 shape = SubResource("RectangleShape2D_03hms")
 
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="BG-ParallaxBackground" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="texture" type="Sprite2D" parent="ParallaxBackground/BG-ParallaxBackground"]
+
+[node name="BG-ParallaxBackground2" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="texture" type="Sprite2D" parent="ParallaxBackground/BG-ParallaxBackground2"]
+
+[node name="BG-ParallaxBackground3" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="texture" type="Sprite2D" parent="ParallaxBackground/BG-ParallaxBackground3"]
+
+[node name="BG-ParallaxBackground4" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="texture" type="Sprite2D" parent="ParallaxBackground/BG-ParallaxBackground4"]
+
+[node name="BG-ParallaxBackground5" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="texture" type="Sprite2D" parent="ParallaxBackground/BG-ParallaxBackground5"]
+
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
