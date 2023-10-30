@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx2pi0s5ft6r1"]
+
+[ext_resource type="Texture2D" uid="uid://brgpio8l482m5" path="res://Pacotes/Sprite Pack 2/2 - Mr. Mochi/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png" id="1_vyk4i"]
+
+[node name="mover_plataforma" type="Node2D"]
+
+[node name="plataforma" type="AnimatableBody2D" parent="."]
+
+[node name="sprite_platform" type="Sprite2D" parent="plataforma"]
+texture = ExtResource("1_vyk4i")
+region_enabled = true
+region_rect = Rect2(96, 64, 32, 16)
