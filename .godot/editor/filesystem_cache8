@@ -1,13 +1,49 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698662037
+::res://::1699288425
 icon.svg::CompressedTexture2D::8175431377744174530::1697969147::1697969147::1::::<><>::
 Player.gd::GDScript::-1::1698504076::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1697969147::0::1::::<><>::
 ::res://atores/::1698504076
 player.tscn::PackedScene::6169973973354293690::1698504076::0::1::::<><>::res://Player.gd<>uid://c1ep8aq1wy3fm
-::res://Cenas/::1698516586
-level.tscn::PackedScene::437100222068616784::1698516586::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://bi2g6pu7toaxd::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://4r8rnynuhqyh::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>uid://m4i85rs3xwpo::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>res://Shaders/move_nuvem.gdshader<>uid://b8fh3au5dhlay::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://ddtkqak5e0te8::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png<>uid://b6d5wy8v10pxs::::res://Prefabs/mover_plataforma.tscn
-::res://Pacotes/::1697969147
+::res://Cenas/::1699030033
+level.tscn::PackedScene::437100222068616784::1699030033::0::1::::<><>::uid://27nilnvvflq4::::res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png<>uid://c7b5uckun05io::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png<>uid://ct51tm2howq7k::::res://atores/player.tscn<>uid://bi2g6pu7toaxd::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png<>uid://4r8rnynuhqyh::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>uid://m4i85rs3xwpo::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>res://Shaders/move_nuvem.gdshader<>uid://b8fh3au5dhlay::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png<>uid://ddtkqak5e0te8::::res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png<>uid://b6d5wy8v10pxs::::res://Prefabs/mover_plataforma.tscn<>uid://bvn32xtonb221::::res://Prefabs/moeda.tscn
+::res://Pacotes/::1699027242
+::res://Pacotes/Mini FX, Items & UI/::1699027242
+LICENSE.txt::TextFile::-1::1699027242::0::1::::<><>::
+::res://Pacotes/Mini FX, Items & UI/Common Pick-ups/::1699027242
+Coin (16 x 16).png::CompressedTexture2D::2227955604198587698::1699027242::1699027242::1::::<><>::
+Health_Kit (16 x 16).png::CompressedTexture2D::3597311242839927758::1699027242::1699027242::1::::<><>::
+Heart_Spin (16 x 16).png::CompressedTexture2D::944242862376903145::1699027242::1699027242::1::::<><>::
+Small_Coin (16 x 16).png::CompressedTexture2D::7765412957024417698::1699027242::1699027242::1::::<><>::
+Treasure_Chest (32 x 16).png::CompressedTexture2D::8150726286264515681::1699027242::1699027242::1::::<><>::
+Wrapped_Presents (16 x 16).png::CompressedTexture2D::3321251063994022909::1699027242::1699027242::1::::<><>::
+::res://Pacotes/Mini FX, Items & UI/Effects/::1699027242
+Bright_Sparkle (16 x 16).png::CompressedTexture2D::9194531441603135371::1699027242::1699027242::1::::<><>::
+Cloud_Poof (16 x 16).png::CompressedTexture2D::8641111382026387935::1699027242::1699027242::1::::<><>::
+Dust (16 x 16).png::CompressedTexture2D::7842497144055126233::1699027242::1699027242::1::::<><>::
+Explosion_Poof (16 x 16).png::CompressedTexture2D::791750785638459549::1699027242::1699027242::1::::<><>::
+Yellow_Sparkle (16 x 16).png::CompressedTexture2D::5489459265932633493::1699027242::1699027242::1::::<><>::
+::res://Pacotes/Mini FX, Items & UI/Food Items/::1699027242
+Bottled_Drinks (16 x 16).png::CompressedTexture2D::2646601878961855725::1699027242::1699027242::1::::<><>::
+Burger_&_Fries (16 x 16).png::CompressedTexture2D::8427011249027388646::1699027242::1699027242::1::::<><>::
+Cake_Slices (16 x 16).png::CompressedTexture2D::2455284175977580528::1699027242::1699027242::1::::<><>::
+Chocolate_Bars (16 x 16).png::CompressedTexture2D::7820441592747924866::1699027242::1699027242::1::::<><>::
+Fruits (16 x 16).png::CompressedTexture2D::4822521351780758947::1699027242::1699027242::1::::<><>::
+Grilled_Panini (16 x 16).png::CompressedTexture2D::4260025540028151965::1699027242::1699027242::1::::<><>::
+Ice_Cream_Cones (16 x 16).png::CompressedTexture2D::2977537776751511249::1699027242::1699027242::1::::<><>::
+Milk_Cartons (16 x 16).png::CompressedTexture2D::2116991622715834317::1699027242::1699027242::1::::<><>::
+Pancake_Stack (16 x 16).png::CompressedTexture2D::1601005882678074915::1699027242::1699027242::1::::<><>::
+Salad_Bowl (16 x 16).png::CompressedTexture2D::3416794073837171316::1699027242::1699027242::1::::<><>::
+Sushi_Variety (16 x 16).png::CompressedTexture2D::2552780167683951196::1699027242::1699027242::1::::<><>::
+Wrapped_Candies (16 x 16).png::CompressedTexture2D::2704731755451419314::1699027242::1699027242::1::::<><>::
+::res://Pacotes/Mini FX, Items & UI/Mini UI/::1699027242
+Health_Indicator_Black_Outline (8 x 8).png::CompressedTexture2D::7679239053585474336::1699027242::1699027242::1::::<><>::
+Health_Indicator_White_Outline (8 x 8).png::CompressedTexture2D::2808181797790753730::1699027242::1699027242::1::::<><>::
+Mouse_Icons_Outlined (16 x 16).png::CompressedTexture2D::3798110510351555877::1699027242::1699027242::1::::<><>::
+Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png::CompressedTexture2D::6253471170204510894::1699027242::1699027242::1::::<><>::
+Speech_Emotes (16 x 16).png::CompressedTexture2D::5226913939705016315::1699027242::1699027242::1::::<><>::
+Timer_Coin_Numbers_Drop-shadowed (8 x 8).png::CompressedTexture2D::3388435352676131889::1699027242::1699027242::1::::<><>::
+Timer_Coin_Numbers_Outlined (8 x 8).png::CompressedTexture2D::528118644497663031::1699027242::1699027242::1::::<><>::
 ::res://Pacotes/Seasonal Tilesets/::1697969147
 LICENSE.txt::TextFile::-1::1697969147::0::1::::<><>::
 ::res://Pacotes/Seasonal Tilesets/1 - Grassland/::1698504076
@@ -157,9 +193,11 @@ Claw_Animations (16 x 16).png::CompressedTexture2D::5072346603201397156::1697969
 Hurt (32 x 32).png::CompressedTexture2D::5808675006059398965::1697969147::1697969147::1::::<><>::
 Movement_(Flip_image_back_and_forth) (32 x 32).png::CompressedTexture2D::4653428670458200611::1697969147::1697969147::1::::<><>::
 Reaching_to_Pinch (32 x 32).png::CompressedTexture2D::937613033635977084::1697969147::1697969147::1::::<><>::
-::res://Prefabs/::1698516174
-mover_plataforma.tscn::PackedScene::4570330079512024484::1698516174::0::1::::<><>::res://Scripts/mover_plataforma.gd<>uid://dubgyfci0biyq::::res://Pacotes/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png
-::res://Scripts/::1698515084
+::res://Prefabs/::1699030034
+moeda.tscn::PackedScene::3888972841169328372::1699030034::0::1::::<><>::res://Scripts/moeda.gd<>uid://60idrn23q1kw::::res://Pacotes/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png
+mover_plataforma.tscn::PackedScene::4570330079512024484::1698516174::0::1::::<><>::res://Scripts/mover_plataforma.gd<>uid://dubgyfci0biyq
+::res://Scripts/::1699029971
+moeda.gd::GDScript::-1::1699029971::0::1::::<>Area2D<>::
 mover_plataforma.gd::GDScript::-1::1698515084::0::1::::<>Node2D<>::
-::res://Shaders/::1698516657
-move_nuvem.gdshader::Shader::-1::1698516657::0::1::::<><>::
+::res://Shaders/::1699030065
+move_nuvem.gdshader::Shader::-1::1699030065::0::1::::<><>::

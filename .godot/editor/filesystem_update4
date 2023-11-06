@@ -1,2 +1,4 @@
 res://Cenas/level.tscn
 res://Shaders/move_nuvem.gdshader
+res://Scripts/moeda.gd
+res://Prefabs/moeda.tscn
