@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://ghy8hgadlyv5"]
+[gd_scene load_steps=17 format=3 uid="uid://ghy8hgadlyv5"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_6ecg6"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_ttj75"]
@@ -9,6 +9,7 @@
 [ext_resource type="Shader" path="res://Shaders/move_nuvem.gdshader" id="6_r1g8e"]
 [ext_resource type="Texture2D" uid="uid://b8fh3au5dhlay" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png" id="7_wb4j8"]
 [ext_resource type="Texture2D" uid="uid://ddtkqak5e0te8" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png" id="8_n62lq"]
+[ext_resource type="PackedScene" uid="uid://d2ejx3oq86rlf" path="res://prefabs/moeda.tscn" id="10_m47j6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
@@ -275,6 +276,8 @@ sources/1 = SubResource("TileSetAtlasSource_vba2n")
 shader = ExtResource("6_r1g8e")
 shader_parameter/move_speed = 0.05
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_hnhvo"]
+
 [node name="World-01" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
@@ -355,3 +358,34 @@ motion_mirroring = Vector2(432, 0)
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("8_n62lq")
 centered = false
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hnhvo")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="moeda" type="Area2D" parent="Node2D"]
+
+[node name="moeda2" parent="Node2D" instance=ExtResource("10_m47j6")]
+position = Vector2(6, 87)
+
+[node name="moeda" parent="." instance=ExtResource("10_m47j6")]
+position = Vector2(317, 238)
+
+[node name="moeda2" parent="." instance=ExtResource("10_m47j6")]
+position = Vector2(387, 256)
+
+[node name="moeda3" parent="." instance=ExtResource("10_m47j6")]
+position = Vector2(568, 251)
+
+[node name="moeda4" parent="." instance=ExtResource("10_m47j6")]
+position = Vector2(693, 249)
+
+[node name="moeda5" parent="." instance=ExtResource("10_m47j6")]
+position = Vector2(807, 259)
+
+[node name="moeda6" parent="." instance=ExtResource("10_m47j6")]
+position = Vector2(860, 221)
+
+[node name="moeda7" parent="." instance=ExtResource("10_m47j6")]
+position = Vector2(990, 211)
