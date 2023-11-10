@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://lrrpu23mos1f"]
+[gd_scene load_steps=14 format=3 uid="uid://lrrpu23mos1f"]
 
 [ext_resource type="Texture2D" uid="uid://27nilnvvflq4" path="res://Pacotes/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png" id="1_12tbm"]
 [ext_resource type="Texture2D" uid="uid://c7b5uckun05io" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png" id="2_yelop"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://m4i85rs3xwpo" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png" id="6_58lju"]
 [ext_resource type="Texture2D" uid="uid://b8fh3au5dhlay" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png" id="7_s6e6k"]
 [ext_resource type="Texture2D" uid="uid://ddtkqak5e0te8" path="res://Pacotes/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png" id="8_hxnqb"]
+[ext_resource type="PackedScene" uid="uid://bk1wo0gomv6wn" path="res://prefabs/moeda.tscn" id="9_gxh3y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7wwae"]
 size = Vector2(294, 11.75)
@@ -343,3 +344,20 @@ position = Vector2(-0.5, 0.5)
 scale = Vector2(1.49016, 1.5)
 texture = ExtResource("8_hxnqb")
 centered = false
+
+[node name="moedas" type="Node2D" parent="."]
+
+[node name="moeda2" parent="moedas" instance=ExtResource("9_gxh3y")]
+position = Vector2(5, 257)
+
+[node name="moeda" parent="moedas" instance=ExtResource("9_gxh3y")]
+position = Vector2(-21, 256)
+
+[node name="moeda" parent="." instance=ExtResource("9_gxh3y")]
+position = Vector2(28, 257)
+
+[node name="moeda2" parent="." instance=ExtResource("9_gxh3y")]
+position = Vector2(33, 284)
+
+[node name="moeda3" parent="." instance=ExtResource("9_gxh3y")]
+position = Vector2(27, 315)
